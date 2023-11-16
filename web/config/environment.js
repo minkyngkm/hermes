@@ -75,7 +75,9 @@ module.exports = function (environment) {
 
   if (environment === "development") {
     ENV.shortLinkBaseURL = "https://fake.short.link";
-
+    ENV.APP.HERMES_WEB_GOOGLE_OAUTH2_CLIENT_ID="";
+    ENV.APP.HERMES_WEB_ALGOLIA_APP_ID="";
+    ENV.APP.HERMES_WEB_ANGOLIA_SEARCH_API_KEY="";
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;

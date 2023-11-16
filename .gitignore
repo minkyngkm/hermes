@@ -15,6 +15,7 @@ node_modules
 /web/.yarn/*
 /web/.eslintcache
 /web/dist
+.yarn
 
 # Terraform related
 .terraform
